@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "SholayRevamped Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevamped",
+				"Win64",
+				"Debug",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevamped Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevamped",
+				"Win64",
+				"Debug",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SholayRevamped Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevamped Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SholayRevamped",
+				"Win64",
+				"Debug",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevamped Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevamped",
+				"Win64",
+				"DebugGame",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevamped Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevamped",
+				"Win64",
+				"DebugGame",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SholayRevamped Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevamped Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SholayRevamped",
+				"Win64",
+				"DebugGame",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevamped Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevamped",
+				"Win64",
+				"Development",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevamped Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevamped",
+				"Win64",
+				"Development",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SholayRevamped Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevamped Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SholayRevamped",
+				"Win64",
+				"Development",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevamped Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevamped",
+				"Win64",
+				"Test",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevamped Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevamped",
+				"Win64",
+				"Test",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SholayRevamped Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevamped Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SholayRevamped",
+				"Win64",
+				"Test",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevamped Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevamped",
+				"Win64",
+				"Shipping",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevamped Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevamped",
+				"Win64",
+				"Shipping",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SholayRevamped Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevamped Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SholayRevamped",
+				"Win64",
+				"Shipping",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevampedEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevampedEditor",
+				"Win64",
+				"Debug",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevampedEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevampedEditor",
+				"Win64",
+				"Debug",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SholayRevampedEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevampedEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SholayRevampedEditor",
+				"Win64",
+				"Debug",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevampedEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevampedEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevampedEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevampedEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SholayRevampedEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevampedEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SholayRevampedEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevampedEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevampedEditor",
+				"Win64",
+				"Development",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevampedEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SholayRevampedEditor",
+				"Win64",
+				"Development",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SholayRevampedEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "SholayRevampedEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SholayRevampedEditor",
+				"Win64",
+				"Development",
+				"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\SholayRevamped.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		}
+	]
+}

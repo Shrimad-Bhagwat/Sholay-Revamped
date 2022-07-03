@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "SholayRevampedEditor Editor Win64 Development (SholayRevamped)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\.vscode\\compileCommands_SholayRevamped.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

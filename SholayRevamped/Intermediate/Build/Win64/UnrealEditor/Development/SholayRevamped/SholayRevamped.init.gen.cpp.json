@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\shrimad\\unreal\\sholay-revamped\\sholayrevamped\\intermediate\\build\\win64\\unrealeditor\\inc\\sholayrevamped\\sholayrevamped.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\shrimad\\unreal\\sholay-revamped\\sholayrevamped\\intermediate\\build\\win64\\sholayrevampededitor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\shrimad\\unreal\\sholay-revamped\\sholayrevamped\\intermediate\\build\\win64\\unrealeditor\\development\\sholayrevamped\\definitions.sholayrevamped.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

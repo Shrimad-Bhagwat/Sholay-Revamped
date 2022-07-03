@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\Source\\SholayRevamped\\SholayRevamped.Build.cs",
+		"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\Source\\SholayRevamped.Target.cs",
+		"D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\Source\\SholayRevampedEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.2"
+}

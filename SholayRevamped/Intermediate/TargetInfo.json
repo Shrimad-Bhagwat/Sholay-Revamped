@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SholayRevamped",
+			"Path": "D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\Source\\SholayRevamped.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SholayRevampedEditor",
+			"Path": "D:\\Shrimad\\UNREAL\\Sholay-Revamped\\SholayRevamped\\Source\\SholayRevampedEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

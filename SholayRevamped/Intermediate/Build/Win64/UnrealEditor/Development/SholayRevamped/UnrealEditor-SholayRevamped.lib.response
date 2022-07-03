@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SholayRevamped.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Shrimad\UNREAL\Sholay-Revamped\SholayRevamped\Intermediate\Build\Win64\SholayRevampedEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Shrimad\UNREAL\Sholay-Revamped\SholayRevamped\Intermediate\Build\Win64\UnrealEditor\Development\SholayRevamped\SholayRevamped.cpp.obj"
+"D:\Shrimad\UNREAL\Sholay-Revamped\SholayRevamped\Intermediate\Build\Win64\UnrealEditor\Development\SholayRevamped\SholayRevampedGameModeBase.cpp.obj"
+"D:\Shrimad\UNREAL\Sholay-Revamped\SholayRevamped\Intermediate\Build\Win64\UnrealEditor\Development\SholayRevamped\SholayRevamped.init.gen.cpp.obj"
+"D:\Shrimad\UNREAL\Sholay-Revamped\SholayRevamped\Intermediate\Build\Win64\UnrealEditor\Development\SholayRevamped\SholayRevampedGameModeBase.gen.cpp.obj"
+"D:\Shrimad\UNREAL\Sholay-Revamped\SholayRevamped\Intermediate\Build\Win64\UnrealEditor\Development\SholayRevamped\Default.rc2.res"
+/OUT:"D:\Shrimad\UNREAL\Sholay-Revamped\SholayRevamped\Intermediate\Build\Win64\UnrealEditor\Development\SholayRevamped\UnrealEditor-SholayRevamped.lib"
